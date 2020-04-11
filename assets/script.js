@@ -1,15 +1,21 @@
-$(".list-group").on("click", "p", function(){
-    var text = $(this)
-    .text()
-    .trim();
-    console.log("p was clicked");
-})
+var displayTime = document.querySelector("#currentDay");
 
-var textInput = $("<textarea>")
-    .addClass("form-control")
-    .val(text);
+var currentTime = moment();
 
-$(this).replaceWith(textInput);
+displayTime.textContent = currentTime.format("dddd, MMMM Do")
+
+// $(".list-group").on("click", "p", function(){
+//     var text = $(this)
+//     .text()
+//     .trim();
+//     console.log("p was clicked");
+// })
+
+// var textInput = $("<textarea>")
+//     .addClass("form-control")
+//     .val(text);
+
+// $(this).replaceWith(textInput);
 
 
 
