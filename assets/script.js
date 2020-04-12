@@ -4,35 +4,40 @@ var currentTime = moment();
 
 displayTime.textContent = currentTime.format("dddd, MMMM Do")
 
-// $(".list-group").on("click", "p", function(){
-//     var text = $(this)
-//     .text()
-//     .trim();
-//     console.log("p was clicked");
-// })
+$(".saveBtn").on("click", function() {
+    // get row text field class and row id values
+    var value = $(this).siblings(".description").val();
+    var time = $(this).parent().attr("id");
 
-// var textInput = $("<textarea>")
-//     .addClass("form-control")
-//     .val(text);
+    // save in localStorage
+    localStorage.setItem(time /* aka KEY = row id */, value /* text in the textarea */);
+});
 
-// $(this).replaceWith(textInput);
+// load any saved data from localStorage 
 
+// 9am
+$("#9am-row .description").val(localStorage.getItem("9am-row" /* localStorage KEY also the row id */));
 
+// 10am
+$("#10am-row .description").val(localStorage.getItem("#10am-row" /* localStorage KEY also the row id */));
 
-// createEvent() 
+// 11am
+$("#11am-row .description").val(localStorage.getItem("11am-row" /* localStorage KEY also the row id */));
 
-// // save tasks 
-// events.toDO.push({
-//     text: eventText,
-//     time: eventTime 
-// })
+// 12pm
+$("#12pm-row .description").val(localStorage.getItem("12pm-row" /* localStorage KEY also the row id */));
 
-// // save events to local storage 
-// var saveEvents = function () {
-//     localStorage.setItem("events", JSON.stringify(events));
-// };
+// 1pm
+$("#1pm-row .description").val(localStorage.getItem("1pm-row" /* localStorage KEY also the row id */));
 
-// // load events 
-// var loadEvents = function () {
-//     events = JSON.parse(localStorage.getItem(evetns));
-// };
+// 2pm
+$("#2pm-row .description").val(localStorage.getItem("2pm-row" /* localStorage KEY also the row id */));
+
+// 3pm
+$("#3pm-row .description").val(localStorage.getItem("3pm-row" /* localStorage KEY also the row id */));
+
+// 4pm
+$("#4pm-row .description").val(localStorage.getItem("4pm-row" /* localStorage KEY also the row id */));
+
+// 5pm
+$("#5pm-row .description").val(localStorage.getItem("5pm-row" /* localStorage KEY also the row id */));
