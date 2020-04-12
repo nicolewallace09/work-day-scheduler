@@ -10,7 +10,10 @@ Save button for that time block</br>
 Events are saved in local storage</br> 
 Events are saved when pages are refreshed</br>
 
-#URls
+# Screenshot 
+<img src="./assets/images/calender-shot.png">
+
+# URLs
 
 Github Url
 https://github.com/nicolewallace09/work-day-scheduler/tree/master
