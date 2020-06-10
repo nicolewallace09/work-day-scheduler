@@ -1,22 +1,33 @@
-# work-day-scheduler
-Challenge 5 working with third-party APIs 
+# Work Day Scheduler 
+![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
-# Criteria 
-Daily planner to create a schedule</br>
-Current date is displayed on top</br>
-Time blocks for color coded - to indicate past, present, or future</br> 
-Click into a time block to enter an event</br> 
-Save button for that time block</br> 
-Events are saved in local storage</br> 
-Events are saved when pages are refreshed</br>
+## Description 
+This application uses third-party API and JavaScript to create a calender-style scheduler. 
 
-# Screenshot 
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+
+## Installation 
+This does not require installation. 
+
+## Usage 
+This application allows users to choose a time slot to enter a task. These tasks are stored in local storage so they are still accessible even when the application is refreshed. Current date is displayed on the top of the application and the times are color coded to let the user know when an event has passed, current, or in the future.<br>
+Please view live Git Hub [URL](https://nicolewallace09.github.io/work-day-scheduler/)<br>
 <img src="./assets/images/calender-shot.png">
 
-# URLs
+## License 
+This project is license under MIT
 
-Github Url
-https://github.com/nicolewallace09/work-day-scheduler/tree/master
+## Contributing 
+Contributors should read the installation section. 
 
-Live Url 
-https://nicolewallace09.github.io/work-day-scheduler/
+## Tests
+There are no tests for this application. 
+
+## Questions
+If you have any questions about this projects, please contact me directly at nicole.elisaw@gmail.com. You can view more of my projects at https://github.com/nicolewallace09.
