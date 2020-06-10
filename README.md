@@ -2,7 +2,7 @@
 ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description 
-This application uses third-party API and JavaScript to create a calender-style scheduler. 
+This application uses third-party API and JavaScript to create a calendar-style scheduler allowing users to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS by using jQuery. 
 
 ## Table of Contents
 * [Installation](#installation)
